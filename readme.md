@@ -8,11 +8,12 @@ from python scripts into one documentation.html file.
 It automatically ignores all files and directories which's name start with a
 dot, and all files in your .gitignore
 
-For an example look at the [html](test_dir/documentation.html) in test_dir.
+For an example look at the
+[html](https://htmlpreview.github.io/?https://github.com/knorrfg/aani/main/test_dir/documentation.html) in test_dir.
 To get started simply create a readme.md and run `aani` in the top level
 directory of your project.
 
 To install Aani simply run
 ```
-   pip install https://github.com/knorrfg/aani.git
+   pip install git+git://github.com/knorrfg/aani.git
 ```
